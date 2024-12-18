@@ -11,17 +11,18 @@
  */
 
 :root {
-  /* colors */
-  --background-color: blue;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+    /* colors */
+  --link-color: #035fe6;
+  --link-hover-color: #136ff6;
+  --background-color: #fff;
+  --overlay-background-color: #eee;
+  --highlight-background-color: #ccc;
+  --text-color: #000;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: roboto, roboto-fallback;
+  --heading-font-family: var(--body-font-family);
+  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;

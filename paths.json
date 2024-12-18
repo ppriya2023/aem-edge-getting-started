@@ -1,7 +1,13 @@
 {
-  "mappings": [
-    "/content/my-new-site/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
-  ]
+
+"mappings": [
+
+"/content/xsc-xwalk-site/:/",
+
+"/content/xsc-xwalk-site/metadata.json:/metadata.json",
+
+"/content/xsc-xwalk-site/redirects.json:/redirects.json"
+
+]
+
 }
